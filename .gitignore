@@ -1,14 +1,33 @@
+# Local Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
+.idea/
+.navigation
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle files
+.gradle/
 /captures
+
+# Generated files
+bin/
+gen/
 .externalNativeBuild
-.cxx
+
+# Built application files
+*.apk
+output.json
+build/
+
+# Log Files
+*.log
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+#hprof dump
+*.hprof
