@@ -11,7 +11,7 @@ typealias EngineersScheduleCallback = (Boolean, Array<Array<Engineer?>>?) -> Uni
 class ScheduleFinder(
     val maxShiftsPerDayForEngineer: Int = 1,
     val numOfDays: Int = 14,
-    val numOfShiftsPerDay: Int = 3,
+    val numOfShiftsPerDay: Int = 2,
     val engineersList: List<Engineer>,
     val callback: EngineersScheduleCallback
 ) {
