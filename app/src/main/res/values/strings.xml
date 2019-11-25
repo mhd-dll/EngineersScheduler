@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SchedulingEngineers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_engineers_list">Engineers list</string>
+    <string name="find_schedule">Find schedule</string>
+</resources>
